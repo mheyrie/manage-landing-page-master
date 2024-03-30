@@ -5,31 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css ">
   
   <title>Frontend Mentor | Manage landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <header>
+    <nav class="relative container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <div class="pt-2">
+          <img src="./images/logo.svg" alt="logo">
+        </div>
+        <div class="hidden md:flex space-x-10">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <button class="rounded-full bg-brightRed p-2 px-4 text-white hover:opacity-50 text-xs font-bold hidden md:block ">Get Started</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="hero-container">
+      <div class="container flex flew-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+            Bring everyone together to build better products.
+          </h1>
+          <p class="text-darkGrayishBlue text-center max-w-sm md:text-left">
+            Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view. 
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <button class="rounded-full bg-brightRed p-2 px-4 text-white hover:opacity-50 text-xs font-bold w-32 shadow-xl">
+              Get Started
+            </button>
+          </div>
+          
+        </div>
+        <div>
 
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
+        </div>
+      </div>
 
-  Get Started
+    </section>
+  </main>
+  
+  
+  
+ 
+  
 
-  Bring everyone together to build better products.
+  
 
-  Manage makes it simple for software teams to plan day-to-day 
-  tasks while keeping the larger team goals in view.
+  
 
-  Get Started
+  
+
+  
 
   What’s different about Manage?
 
@@ -95,7 +131,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Mheyrie</a>.
   </div>
 </body>
 </html>
