@@ -26,6 +26,8 @@ firstCircle.addEventListener('click', () => {
             testimony.classList.remove("hidden")
             twoTes.classList.add('hidden')
             threeTes.classList.add('hidden')
+            fourTes.classList.add('hidden')
+            firstCircle.classList.toggle('selected')
         }
         
     })
@@ -38,11 +40,20 @@ secondCircle.addEventListener('click', () => {
         if (testimony===twoTes){
             testimony.classList.remove("hidden")
             firstTes.classList.add('hidden')
+            firstCircle.classList.remove('selected')
+            
             threeTes.classList.add('hidden')
             fourTes.classList.add('hidden')
 
+            secondCircle.classList.add('selected')
+            // secondCircle.style.backgroundColor = 'hsl(12 88% 59%)'
         }
+       let image = document.getElementById('img1')
+            image.style.marginLeft = '270px';    
     })
+    
+        
+
 })
 
 threeCircle.addEventListener('click', () => {
