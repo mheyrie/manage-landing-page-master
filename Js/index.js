@@ -1,3 +1,4 @@
+// Handles hamburger
 const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('menu')
 
@@ -6,6 +7,8 @@ btn.addEventListener('click', () => {
     nav.classList.toggle('hidden')
 })
 
+
+//Handles carousel
 const firstCircle = document.getElementById('carousel-btn')
 const secondCircle = document.getElementById('carousel-btnn')
 const threeCircle = document.getElementById('carousel-btnnn')
